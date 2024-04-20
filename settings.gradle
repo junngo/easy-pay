@@ -1,1 +1,3 @@
 rootProject.name = 'easypay'
+include 'membership-service'
+
