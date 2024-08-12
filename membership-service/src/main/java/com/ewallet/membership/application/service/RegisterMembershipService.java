@@ -1,12 +1,12 @@
 package com.ewallet.membership.application.service;
 
+import com.ewallet.common.UseCase;
 import com.ewallet.membership.adapter.out.persistence.MembershipJpaEntity;
 import com.ewallet.membership.adapter.out.persistence.MembershipMapper;
 import com.ewallet.membership.application.port.in.RegisterMembershipCommand;
 import com.ewallet.membership.application.port.in.RegisterMembershipUseCase;
 import com.ewallet.membership.application.port.out.RegisterMembershipPort;
 import com.ewallet.membership.domain.Membership;
-import common.UseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.transaction.annotation.Transactional;
 

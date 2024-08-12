@@ -1,9 +1,9 @@
 package com.ewallet.membership.adapter.in.web;
 
+import com.ewallet.common.WebAdapter;
 import com.ewallet.membership.application.port.in.RegisterMembershipCommand;
 import com.ewallet.membership.application.port.in.RegisterMembershipUseCase;
 import com.ewallet.membership.domain.Membership;
-import common.WebAdapter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

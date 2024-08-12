@@ -1,5 +1,4 @@
-package common;
-
+package com.ewallet.common;
 
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;

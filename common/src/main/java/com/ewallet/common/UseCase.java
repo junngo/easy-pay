@@ -1,4 +1,4 @@
-package common;
+package com.ewallet.common;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -8,14 +8,15 @@ import java.lang.annotation.Target;
 import org.springframework.core.annotation.AliasFor;
 import org.springframework.stereotype.Component;
 
+
 /*
- * It conveys the meaning of 'WebAdapter`.
+ * It conveys the meaning of 'UseCase'.
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Component
-public @interface WebAdapter {
+public @interface UseCase {
 	@AliasFor(annotation = Component.class)
 	String value() default "";
 }

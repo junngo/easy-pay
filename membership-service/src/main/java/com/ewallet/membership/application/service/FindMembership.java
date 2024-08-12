@@ -1,10 +1,10 @@
 package com.ewallet.membership.application.service;
 
+import com.ewallet.common.UseCase;
 import com.ewallet.membership.application.port.in.FindMembershipCommand;
 import com.ewallet.membership.application.port.in.FindMembershipUseCase;
 import com.ewallet.membership.application.port.out.FindMembershipPort;
 import com.ewallet.membership.domain.Membership;
-import common.UseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.transaction.annotation.Transactional;
 

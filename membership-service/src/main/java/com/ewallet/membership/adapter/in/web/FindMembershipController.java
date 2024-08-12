@@ -1,9 +1,9 @@
 package com.ewallet.membership.adapter.in.web;
 
+import com.ewallet.common.WebAdapter;
 import com.ewallet.membership.application.port.in.FindMembershipCommand;
 import com.ewallet.membership.application.port.in.FindMembershipUseCase;
 import com.ewallet.membership.domain.Membership;
-import common.WebAdapter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

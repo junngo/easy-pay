@@ -1,5 +1,6 @@
 package com.ewallet.membership.adapter.out.persistence;
 
+import com.ewallet.common.PersistenceAdapter;
 import com.ewallet.membership.application.port.out.FindMembershipPort;
 import com.ewallet.membership.application.port.out.RegisterMembershipPort;
 import com.ewallet.membership.domain.Membership;
@@ -9,7 +10,6 @@ import com.ewallet.membership.domain.Membership.MembershipId;
 import com.ewallet.membership.domain.Membership.MembershipIsCorp;
 import com.ewallet.membership.domain.Membership.MembershipIsValid;
 import com.ewallet.membership.domain.Membership.MembershipName;
-import common.PersistenceAdapter;
 import lombok.RequiredArgsConstructor;
 
 
